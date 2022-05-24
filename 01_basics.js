@@ -3,6 +3,8 @@
 // 03 prefix, postfix
 // 04 string concatenation 
 // 05 Three ways to add string as number
+// 06 prompt
+// 07 comparison operator
 
 
 
@@ -62,7 +64,9 @@
 // var userName= "Ashar";
 // console.log("Thanks "+ userName + "!");
 
-//IMPORTANT//05 THREE WAYS TO ADD STRING AS NUMBER
+
+
+//////////IMPORTANT//05 THREE WAYS TO ADD STRING AS NUMBER
 // First--> Pass each string to the Number object to convert it to a number.
 // console.log(Number("2")+Number("4"));
 
@@ -79,7 +83,10 @@
 // console.log(parseInt('abc5', 10)); //NAN (not a number)
   
 
-///////////// 05 Prompt ////////////
+
+
+
+///////////// 06 Prompt ////////////
 // Prompt code is like alert code, with two differences.
 // In a prompt, you need a way to capture the user's response. That means you need to start
 // by declaring a variable, followed by an equal sign.
@@ -92,9 +99,34 @@
 // var str= "How old are you? ";
 // var age = prompt(str,18);
 
-
 // var ageUpdate = age+1;
 // console.log(ageUpdate); //181
 // // to resolve concatenation issue we can use he above methods 05
 
 // var ageUpdated = +age +1; //19
+
+
+///////////// 07  Comparision Operator //////////////
+// > is greater than
+// < is less than
+// >= is greater than or equal to
+// <= is less than or equal to
+// != isnot equal
+// !== isnot equal + data type
+// == equal to
+// === equal to + equal datatypes
+
+// var a=4;
+// var b=6;
+// console.log(a>b); //false
+// console.log(a<b); //true
+// console.log(a>=b); //false
+// console.log(a<=b); //true
+
+// var c=4;
+// var d="4";
+// console.log(c!=d); // false
+// console.log(c!==d); // true
+// console.log(c==d); // true
+// console.log(c===d); // false
+ 
