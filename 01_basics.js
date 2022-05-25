@@ -5,6 +5,7 @@
 // 05 Three ways to add string as number
 // 06 prompt
 // 07 comparison operator
+// 08 if, else if, else statements
 
 
 
@@ -87,7 +88,7 @@
 
 
 ///////////// 06 Prompt ////////////
-// Prompt code is like alert code, with two differences.
+// Prompt code is like alert code, with two differences. Return only string
 // In a prompt, you need a way to capture the user's response. That means you need to start
 // by declaring a variable, followed by an equal sign.
 
@@ -104,6 +105,16 @@
 // // to resolve concatenation issue we can use he above methods 05
 
 // var ageUpdated = +age +1; //19
+
+
+// Task--> tke input (first name , last name and father name) from user using prompt and show output on alert
+
+// var firstName = prompt('Enter your First Name:', 'Mr. ');
+// var lastName = prompt('Enter your Last Name:');
+// var fatherName = prompt('Enter your Father Name:');
+// var name = firstName + lastName;
+// alert("Name: " + name + " | " + "Father Name: " + fatherName);
+
 
 
 ///////////// 07  Comparision Operator //////////////
@@ -130,3 +141,46 @@
 // console.log(c==d); // true
 // console.log(c===d); // false
  
+
+////////////// 08  if else statement /////////////////
+
+// if (condition){
+//     block of code to be executed if the condition is true.
+// }
+
+//////// using if else condition
+// var num = 100;
+// if (num >= 90){
+//     console.log("A Grade")
+// }
+// else if (num >= 80){
+//     console.log("B Grade")
+// }
+// else if (num >= 70){
+//     console.log("C Grade")
+// }
+// else {
+//     console.log("Not applicable")
+// }
+
+////////// nested if else
+
+// var num = 79;
+
+// if (num > 80){
+//     console.log('A Grade');
+//     if(num>90){
+//       console.log('rewards $100');        
+//     }
+//     else if (num >=85){
+//         console.log("rewards $50");
+//     }
+//     else {
+//         console.log("rewards $10");
+        
+//     }
+// }
+// else{
+//     console.log ('Better luck next time');
+// }
+
