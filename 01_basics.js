@@ -8,14 +8,15 @@
 // 08 if, else if, else statements
 
 
-
-
-
+// ------------------------------------------------------------------------ //
 
 //01 alert, An alert is a box that pops up to give the user a message. Here's code for an alert that
 // displays the message "Thanks for your input!"
 
 // alert("Thanks for your input!");
+
+
+// ------------------------------------------------------------------------ //
 
 /////////////// 02 variable //////////////
 // variable are container for storing data/values, it can be change, 
@@ -57,6 +58,8 @@
 //                   20  
 
 
+// ------------------------------------------------------------------------ //
+
 ///////////// 04 String concatenation ///////////
 
 // console.log("Ashar " + "Ahmed")
@@ -84,7 +87,7 @@
 // console.log(parseInt('abc5', 10)); //NAN (not a number)
   
 
-
+// ------------------------------------------------------------------------ //
 
 
 ///////////// 06 Prompt ////////////
@@ -115,7 +118,7 @@
 // var name = firstName + lastName;
 // alert("Name: " + name + " | " + "Father Name: " + fatherName);
 
-
+// ------------------------------------------------------------------------ //
 
 ///////////// 07  Comparision Operator //////////////
 // > is greater than
@@ -141,6 +144,7 @@
 // console.log(c==d); // true
 // console.log(c===d); // false
  
+// ------------------------------------------------------------------------ //
 
 ////////////// 08  if else statement /////////////////
 
@@ -168,9 +172,9 @@
 // var num = 79;
 
 // if (num > 80){
-//     console.log('A Grade');
+//   console.log('A Grade');
 //     if(num>90){
-//       console.log('rewards $100');        
+//         console.log('rewards $100');        
 //     }
 //     else if (num >=85){
 //         console.log("rewards $50");
@@ -183,4 +187,42 @@
 // else{
 //     console.log ('Better luck next time');
 // }
+
+///////// with logical operators
+// && --> and , || --> OR
+
+// var x="B"; 
+// if (x==="A" || x==="E" || x==="I" || x==="O" || x==="U"){
+//   console.log("It's a Vowel");
+// }
+// else{
+    
+//     console.log("It's not a Vowel");
+//  }
+
+
+
+
+// var gender = "Male"
+// var age = 12
+// if(gender==="Male" && age >=18){
+//     console.log("you are applicable for license");
+// }
+// else {
+//     console.log("not applicable")
+// }
+
+
+// var weight = "80kg";
+// var height = "6ft";
+// var age = 18;
+
+// if ((weight >= "60" || height >=5) && age>18 ){
+//     console.log("you are hired");
+// }
+// else{
+//     console.log("not applicable");
+// }
+
+
 
