@@ -5,7 +5,7 @@
 // 05 Three ways to add string as number
 // 06 prompt
 // 07 comparison operator
-// 08 if, else if, else statements
+// 08 if, else if, else statements with logical operators and nested if else.
 
 
 // ------------------------------------------------------------------------ //
@@ -14,8 +14,6 @@
 // displays the message "Thanks for your input!"
 
 // alert("Thanks for your input!");
-
-
 // ------------------------------------------------------------------------ //
 
 /////////////// 02 variable //////////////
@@ -35,7 +33,7 @@
 // console.log(userName);
 
 //////////////03,  Prefix, Postfix, increment/Decrement //////////
-//  x++ OR x= x+1
+//  x++ OR x= x+1 OR x+=1
 // Postfix , first evaluate then increment
 // var x = 5;
 // var y = x++;
@@ -47,11 +45,12 @@
 // var y = ++x;
 // console.log(y); //6
 // console.log(x); //6
- 
+
 // Task --> do yourself without compiler (clear the concept of prefix and postfix)
 // var n = 5;
-// console.log(n+ n-- - ++n + --n * ++n - n); 
-//          5 + 5 -  5 +    4  *  5 - 5
+// console.log(n+ n-- - ++n + --n * ++n - n);
+
+//            5 + 5 -  5 +    4  *  5 - 5
 //             10  - 5 +    20  -5
 //               10    + 15    -5
 //                  25-5
@@ -224,5 +223,21 @@
 //     console.log("not applicable");
 // }
 
+// Task --> using if else statement make a temperature converter F to C and C to F
 
 
+// alert("Welcome To Temperature Converter");
+// var select = +prompt('Press 1 for Celsius to Fahrenheit \nPress 2 for Fahrenheit to Celsius', "1");
+// if(select === 1){
+//       var fValue = +prompt('Enter value in Fahrenheit');
+//       var result = (fValue - 32)*5/9;
+//       alert( fValue + " F " + " = " + result + " C"  );
+// }
+// else if (select === 2){
+//     var cValue = +prompt('Enter value in Celsius');
+//     var result = (cValue* 9/5)+32;
+//     alert( cValue + " C " + " = " + result + " F"  );
+// }
+// else {
+//     alert("ERROR: You can only Enter 1 or 2")
+// }

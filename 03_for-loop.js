@@ -1,5 +1,6 @@
 // 01 for loop
-// break; and continue; 
+// 02 break; and continue; 
+// nested for loop
 
 // -----------------------------------------------------------------//
 
@@ -22,6 +23,10 @@
 // for (var i=0; i<5 ; i++){
 //     console.log(i);
 // }
+
+
+
+
 // // how its work:-
 // // 0   // execute initailization (i = 0) and check conditon (true) then print 0
 // // 1   // increment i= i+1 after 1st iteration, then check condtion (not check initialization bcz its run only one time) if true then print 1 )
@@ -92,3 +97,14 @@
 // if (isPrime){
 //     console.log(num + " is a Prime Number.")
 // }
+
+// ---------------------------------------------------------//
+
+// //03 Nested for loop
+
+for (var i=0; i<4; i++){
+    for (var j=0; j<3; j++){
+        console.log(i,j);
+    }
+}
+
